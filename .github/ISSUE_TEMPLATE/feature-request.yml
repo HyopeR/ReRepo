@@ -11,9 +11,9 @@ body:
       required: true
 
   - type: textarea
-    id: detail
+    id: description
     attributes:
-      label: Detail
+      label: Description
       description: What is the need and use case of this feature?
     validations:
       required: true

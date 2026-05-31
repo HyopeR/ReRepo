@@ -24,16 +24,15 @@ body:
       required: true
 
   - type: dropdown
-    id: workspace
+    id: workflow
     attributes:
-      label: Workspace
+      label: Workflow
       description: Where are you using it?
       options:
         - Expo
         - CLI
     validations:
       required: true
-
 
   - type: textarea
     id: description
