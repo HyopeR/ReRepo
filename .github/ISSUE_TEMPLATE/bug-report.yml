@@ -1,7 +1,5 @@
 name: Bug Report
 description: Report a issue.
-title: "[BUG] SUMMARY"
-labels: ["bug"]
 body:
   - type: dropdown
     id: platform
