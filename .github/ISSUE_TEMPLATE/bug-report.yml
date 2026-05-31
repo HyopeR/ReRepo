@@ -1,11 +1,13 @@
 name: Bug Report
 description: Report a issue.
+labels: ["bug"]
 body:
-  - type: textarea
-    id: description
+  - type: input
+    id: version
     attributes:
-      label: Description
-      description: A clear and concise description of what the bug is.
+      label: Version
+      description: What version are you using?
+      placeholder: 1.0.0
     validations:
       required: true
 
@@ -32,17 +34,11 @@ body:
     validations:
       required: true
 
-  - type: input
-    id: version
-    attributes:
-      label: Version
-      description: What version are you using?
-      placeholder: 1.0.0
-    validations:
-      required: true
 
   - type: textarea
-    id: reproduce
+    id: description
     attributes:
-      label: Reproduce
-      description: How can someone else reproduce this bug?
+      label: Description
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
