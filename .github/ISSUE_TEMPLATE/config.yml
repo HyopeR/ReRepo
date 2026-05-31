@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Documentation
+    url: http://github.com/hyoper
+    about: Please check docs before opening an issue.
