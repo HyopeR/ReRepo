@@ -1,6 +1,6 @@
 name: Bug Report
 description: Report a issue.
-title: "[PLATFORM: BUG] SUMMARY"
+title: "[BUG] SUMMARY"
 labels: ["bug"]
 body:
   - type: dropdown
